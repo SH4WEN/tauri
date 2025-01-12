@@ -21,6 +21,7 @@ import AdminSignUp from "./pages/Admin/AdminSignUp";
 import StudentView from "./pages/Admin/StudentView";
 import TeacherView from "./pages/Admin/TeacherView";
 import SectionView from "./pages/Admin/SectionView";
+import CourseView from "./pages/Admin/CourseView";
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
         <Route path="/admin-signup" element={<AdminSignUp />} />
         <Route path="/studentView" element={<StudentView />} />
         <Route path="/teacherView" element={<TeacherView />} />
+        <Route path="/courseView" element={<CourseView />} />
         <Route path="/sectionView" element={<SectionView />} />
         <Route path="/manageTeacher" element={<ManageTeacher />} />
         <Route path="/student" element={<Student />} />

@@ -1,6 +1,6 @@
 import React from "react";
 
-function SectionView() {
+function CourseView() {
   return (
     <div>
       <br />
@@ -14,7 +14,7 @@ function SectionView() {
           <hr />
           <div class="card text-bg-light mb-3 mx-3">
             <div class="card-header">
-              <b>ALL SECTION</b>
+              <b>ALL COURSE'S</b>
 
               <button type="button" class="btn btn-success float-end">
                 <i class="bi bi-printer"></i>
@@ -25,9 +25,9 @@ function SectionView() {
                 <table class="table table-light table-hover">
                   <thead>
                     <tr>
-                      <th scope="col">SECTION CODE</th>
-                      <th scope="col">MAJOR</th>
-                      <th scope="col">ADVISER</th>
+                      <th scope="col">COURSE CODE</th>
+                      <th scope="col">COURSE DETAIL</th>
+                      <th scope="col">TEACHER</th>
                       <th scope="col " className="text-center">
                         ACTION
                       </th>
@@ -35,8 +35,8 @@ function SectionView() {
                   </thead>
                   <tbody>
                     <tr>
-                      <th scope="row">BSIT 3A</th>
-                      <td>WEB AND GAME</td>
+                      <th scope="row">CC-123</th>
+                      <td>Course 1</td>
                       <td>Zoldick</td>
                       <td>
                         <div class="d-grid gap-2 d-md-flex justify-content-md-center">
@@ -44,14 +44,14 @@ function SectionView() {
                             class="btn btn-outline-primary btn-sm me-md-2"
                             type="button"
                             data-bs-toggle="modal"
-                            data-bs-target="#updateSection"
+                            data-bs-target="#courseupdate"
                           >
                             Update
                           </button>
 
                           <div
                             class="modal fade"
-                            id="updateSection"
+                            id="courseupdate"
                             tabindex="-1"
                             aria-labelledby="exampleModalLabel"
                             aria-hidden="true"
@@ -63,7 +63,7 @@ function SectionView() {
                                     class="modal-title fs-5"
                                     id="exampleModalLabel"
                                   >
-                                    <b>UPDATE SECTION</b>
+                                    <b>UPDATE COURSE</b>
                                   </h1>
                                   <button
                                     type="button"
@@ -79,7 +79,7 @@ function SectionView() {
                                         for="sectioncode"
                                         class="form-label"
                                       >
-                                        Code Section
+                                        Course Code
                                       </label>
                                       <input
                                         class="form-control"
@@ -92,7 +92,7 @@ function SectionView() {
                                         for="sectionname"
                                         class="form-label"
                                       >
-                                        Section Name
+                                        Course Detail
                                       </label>
                                       <input
                                         class="form-control"
@@ -102,12 +102,12 @@ function SectionView() {
 
                                     <div class="col-md-12">
                                       <label for="course" class="form-label">
-                                        Major
+                                        Course Teacher
                                       </label>
                                       <select id="course" class="form-select">
-                                        <option>WEB AND GAME</option>
-                                        <option>SOFTWARE DEVELOPMENT</option>
-                                        <option>NETWORKING</option>
+                                        <option>TEacher 1</option>
+                                        <option>TEacher 2</option>
+                                        <option>TEacher 3</option>
                                       </select>
                                     </div>
                                     <div class="d-grid gap-2 d-md-flex justify-content-md-end">
@@ -130,6 +130,7 @@ function SectionView() {
                               </div>
                             </div>
                           </div>
+
                           <button
                             class="btn btn-outline-danger btn-sm"
                             type="button"
@@ -150,4 +151,4 @@ function SectionView() {
   );
 }
 
-export default SectionView;
+export default CourseView;
