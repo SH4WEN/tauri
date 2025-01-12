@@ -728,68 +728,70 @@ function Grades() {
               {isGradesVisible ? "Hide Grades Table" : "Show Grades Table"}
             </button>
             {isGradesVisible && (
-              <table className="table table-light table-hover">
-                <thead>
-                  <tr>
-                    <th scope="col">ID</th>
-                    <th scope="col">LAST NAME</th>
-                    <th scope="col">NAME</th>
-                    <th scope="col">SECTION</th>
-                    <th scope="col">QUIZ</th>
-                    <th scope="col">CHAP.TEST</th>
-                    <th scope="col">RECITATION</th>
-                    <th scope="col">MIDTERM EXAM</th>
-                    <th scope="col">MIDTERM GRADES</th>
-                    <th scope="col">STATUS</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th scope="row">23-00334</th>
-                    <td>Zoldick</td>
-                    <td>Killua</td>
-                    <td>Bsit-3D-SD</td>
-                    <td>20</td>
-                    <td>35</td>
-                    <td>90</td>
-                    <td>45</td>
-                    <td>90.65</td>
-                    <td className="text-success">
-                      <strong>PASSED</strong>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th scope="row">23-00335</th>
-                    <td>Zoldick</td>
-                    <td>Illumi</td>
-                    <td>Bsit-3D-SD</td>
-                    <td>20</td>
-                    <td>35</td>
-                    <td>90</td>
-                    <td>45</td>
+              <div className="table-responsive">
+                <table className="table table-light table-hover">
+                  <thead>
+                    <tr>
+                      <th scope="col">ID</th>
+                      <th scope="col">LAST NAME</th>
+                      <th scope="col">NAME</th>
+                      <th scope="col">SECTION</th>
+                      <th scope="col">QUIZ</th>
+                      <th scope="col">CHAP.TEST</th>
+                      <th scope="col">RECITATION</th>
+                      <th scope="col">MIDTERM EXAM</th>
+                      <th scope="col">MIDTERM GRADES</th>
+                      <th scope="col">STATUS</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">23-00334</th>
+                      <td>Zoldick</td>
+                      <td>Killua</td>
+                      <td>Bsit-3D-SD</td>
+                      <td>20</td>
+                      <td>35</td>
+                      <td>90</td>
+                      <td>45</td>
+                      <td>90.65</td>
+                      <td className="text-success">
+                        <strong>PASSED</strong>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th scope="row">23-00335</th>
+                      <td>Zoldick</td>
+                      <td>Illumi</td>
+                      <td>Bsit-3D-SD</td>
+                      <td>20</td>
+                      <td>35</td>
+                      <td>90</td>
+                      <td>45</td>
 
-                    <td className="text-danger">74.99</td>
-                    <td className="text-danger">
-                      <strong>FAILED</strong>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th scope="row">23-00336</th>
-                    <td>Zoldick</td>
-                    <td>Illumi</td>
-                    <td>Bsit-3D-SD</td>
-                    <td></td>
-                    <td>35</td>
-                    <td></td>
-                    <td>45</td>
+                      <td className="text-danger">74.99</td>
+                      <td className="text-danger">
+                        <strong>FAILED</strong>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th scope="row">23-00336</th>
+                      <td>Zoldick</td>
+                      <td>Illumi</td>
+                      <td>Bsit-3D-SD</td>
+                      <td></td>
+                      <td>35</td>
+                      <td></td>
+                      <td>45</td>
 
-                    <td className="text-warning">70.99</td>
-                    <td className="text-warning">
-                      <strong>INC</strong>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
+                      <td className="text-warning">70.99</td>
+                      <td className="text-warning">
+                        <strong>INC</strong>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
             )}
           </div>
         </div>
@@ -820,68 +822,70 @@ function Grades() {
               {isfGradesVisible ? "Hide Grades Table" : "Show Grades Table"}
             </button>
             {isfGradesVisible && (
-              <table className="table table-light table-hover">
-                <thead>
-                  <tr>
-                    <th scope="col">ID</th>
-                    <th scope="col">LAST NAME</th>
-                    <th scope="col">NAME</th>
-                    <th scope="col">SECTION</th>
-                    <th scope="col">QUIZ</th>
-                    <th scope="col">CHAP.TEST</th>
-                    <th scope="col">RECITATION</th>
-                    <th scope="col">MIDTERM EXAM</th>
-                    <th scope="col">MIDTERM GRADES</th>
-                    <th scope="col">STATUS</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th scope="row">23-00334</th>
-                    <td>Zoldick</td>
-                    <td>Killua</td>
-                    <td>Bsit-3D-SD</td>
-                    <td>20</td>
-                    <td>35</td>
-                    <td>90</td>
-                    <td>45</td>
-                    <td>90.65</td>
-                    <td className="text-success">
-                      <strong>PASSED</strong>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th scope="row">23-00335</th>
-                    <td>Zoldick</td>
-                    <td>Illumi</td>
-                    <td>Bsit-3D-SD</td>
-                    <td>20</td>
-                    <td>35</td>
-                    <td>90</td>
-                    <td>45</td>
+              <div className="table-responsive">
+                <table className="table table-light table-hover">
+                  <thead>
+                    <tr>
+                      <th scope="col">ID</th>
+                      <th scope="col">LAST NAME</th>
+                      <th scope="col">NAME</th>
+                      <th scope="col">SECTION</th>
+                      <th scope="col">QUIZ</th>
+                      <th scope="col">CHAP.TEST</th>
+                      <th scope="col">RECITATION</th>
+                      <th scope="col">MIDTERM EXAM</th>
+                      <th scope="col">MIDTERM GRADES</th>
+                      <th scope="col">STATUS</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">23-00334</th>
+                      <td>Zoldick</td>
+                      <td>Killua</td>
+                      <td>Bsit-3D-SD</td>
+                      <td>20</td>
+                      <td>35</td>
+                      <td>90</td>
+                      <td>45</td>
+                      <td>90.65</td>
+                      <td className="text-success">
+                        <strong>PASSED</strong>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th scope="row">23-00335</th>
+                      <td>Zoldick</td>
+                      <td>Illumi</td>
+                      <td>Bsit-3D-SD</td>
+                      <td>20</td>
+                      <td>35</td>
+                      <td>90</td>
+                      <td>45</td>
 
-                    <td className="text-danger">74.99</td>
-                    <td className="text-danger">
-                      <strong>FAILED</strong>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th scope="row">23-00336</th>
-                    <td>Zoldick</td>
-                    <td>Illumi</td>
-                    <td>Bsit-3D-SD</td>
-                    <td></td>
-                    <td>35</td>
-                    <td></td>
-                    <td>45</td>
+                      <td className="text-danger">74.99</td>
+                      <td className="text-danger">
+                        <strong>FAILED</strong>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th scope="row">23-00336</th>
+                      <td>Zoldick</td>
+                      <td>Illumi</td>
+                      <td>Bsit-3D-SD</td>
+                      <td></td>
+                      <td>35</td>
+                      <td></td>
+                      <td>45</td>
 
-                    <td className="text-warning">70.99</td>
-                    <td className="text-warning">
-                      <strong>INC</strong>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
+                      <td className="text-warning">70.99</td>
+                      <td className="text-warning">
+                        <strong>INC</strong>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
             )}
           </div>
         </div>
