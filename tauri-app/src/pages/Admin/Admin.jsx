@@ -11,7 +11,7 @@ export function Admin() {
       <div class="card mx-3">
         <div class="row g-0">
           <div class="col-md-4">
-            <div class="card text-bg-secondary mx-3 my-3">
+            <div class="card text-bg-light mx-3 my-3">
               <div class="card-body">
                 <img
                   className="img-fluid rounded-circle w-75 ms-5"
@@ -41,7 +41,10 @@ export function Admin() {
           </div>
           <div class="col-md-8">
             <div class="card-body">
-              <h5 class="card-title ">Admin Dashboard </h5>
+              <h5 class="card-title ">
+                {" "}
+                <b>Admin Dashboard</b>{" "}
+              </h5>
               <hr />
               <div class="row row-cols-1 row-cols-md-4 g-4">
                 {/* teacher */}

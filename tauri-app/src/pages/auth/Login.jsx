@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import logo2 from "../pic/logo2.png";
 
 export function Login() {
   return (
@@ -12,15 +13,16 @@ export function Login() {
           <div class="col-md-8 col-lg-5">
             <div class="card text-bg-light mb-3">
               <div class="card-body">
-                <h3 className="text-center">
-                  <b>Login</b>
-                </h3>
+                <h1 className="text-center ">
+                  {/* <img src={logo2} class=" img-fluid w-75 h-25 " alt="..." /> */}
+                  <b>LOGIN</b>
+                </h1>
                 <hr />
 
                 <form>
                   <div class="mb-3">
                     <label for="exampleInputEmail1" class="form-label">
-                      Email address
+                      <b>Email address</b>
                     </label>
                     <input
                       type="email"
@@ -29,12 +31,12 @@ export function Login() {
                       aria-describedby="emailHelp"
                     />
                     <div id="emailHelp" class="form-text">
-                      We'll never share your email with anyone else.
+                      <b> We'll never share your email with anyone else.</b>
                     </div>
                   </div>
                   <div class="mb-3">
                     <label for="exampleInputPassword1" class="form-label">
-                      Password
+                      <b>Password</b>
                     </label>
                     <input
                       type="password"
@@ -50,22 +52,25 @@ export function Login() {
                       id="exampleCheck1"
                     />
                     <label class="form-check-label" for="exampleCheck1">
-                      Remember Me
+                      <b>Remember Me</b>
                     </label>
                   </div>
-                  <div className="mb-3 text-center ">
+                  <div class="d-grid gap-2">
                     <button type="submit" class="btn btn-outline-primary mx-3">
                       <b>Login</b>
                     </button>
                     <button type="button" class="btn btn-outline-danger mx-3">
                       <b>Cancel</b>
                     </button>
-                    <br />
-                    <br />
+                  </div>
+
+                  <div class="d-grid gap-2 text-center ">
                     <b>
-                      <a href="">Forget paswword</a>{" "}
+                      <a className="text-center" href="">
+                        Forget paswword
+                      </a>{" "}
                     </b>
-                    <br />
+
                     <b>
                       Don't have an Accont ? <Link to={"/signup"}>SignUp</Link>{" "}
                     </b>
