@@ -1,8 +1,5 @@
 import React from "react";
-import user2 from "../pic/user2.png";
-import home from "../pic/home.webp";
-import student from "../pic/student.png";
-import admin from "../pic/admin.png";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -12,7 +9,9 @@ function Home() {
       <br />
       <div className="container">
         <div class="card border-secondary mb-3">
-          <h1>home</h1>
+          <Link to={"/login"} type="button" class="btn btn-primary float-end">
+            LOGIN
+          </Link>
         </div>
       </div>
     </>

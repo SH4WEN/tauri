@@ -57,6 +57,7 @@ function TeacherView() {
                           >
                             update
                           </button>
+                          {/* modal for updating teacher */}
 
                           <div
                             class="modal fade"
@@ -196,6 +197,7 @@ function TeacherView() {
                               </div>
                             </div>
                           </div>
+                          {/* end of modal */}
 
                           <button
                             type="button"

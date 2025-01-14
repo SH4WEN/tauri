@@ -14,7 +14,6 @@ import OpenSched from "./pages/Techer/OpenSched";
 import Grades from "./pages/Techer/Grades";
 import Home from "./pages/home/Home";
 import StudentClass from "./pages/Student/StudentClass";
-import ManageTeacher from "./pages/Admin/ManageTeacher";
 import TeacherLogin from "./pages/Techer/TeacherLogin";
 import StudetSignup from "./pages/Student/StudetSignup";
 import AdminSignUp from "./pages/Admin/AdminSignUp";
@@ -29,8 +28,8 @@ function App() {
       {<NavBar />}
       <Routes>
         <Route path="/signup" element={<Signup />} />
-        <Route path="/" element={<Home />} />
-        <Route path="/login" element={<Login />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/" element={<Login />} />
         <Route path="/teacherlogin" element={<TeacherLogin />} />
         <Route path="/admin" element={<Admin />} />
         <Route path="/admin-signup" element={<AdminSignUp />} />
@@ -38,7 +37,7 @@ function App() {
         <Route path="/teacherView" element={<TeacherView />} />
         <Route path="/courseView" element={<CourseView />} />
         <Route path="/sectionView" element={<SectionView />} />
-        <Route path="/manageTeacher" element={<ManageTeacher />} />
+
         <Route path="/student" element={<Student />} />
         <Route path="/student-signup" element={<StudetSignup />} />
         <Route path="/teacher" element={<Teacher />} />

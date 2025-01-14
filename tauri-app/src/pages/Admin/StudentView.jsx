@@ -59,6 +59,7 @@ function StudentView() {
                             update
                           </button>
 
+                          {/* modal for updating students */}
                           <div
                             class="modal fade"
                             id="studentadd"
@@ -197,6 +198,7 @@ function StudentView() {
                               </div>
                             </div>
                           </div>
+                          {/* end of modal */}
 
                           <button
                             type="button"

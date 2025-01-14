@@ -67,17 +67,16 @@ export function Admin() {
                       </h5>
 
                       <h6 class="card-text">50</h6>
-                      <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                        <button
-                          type="button"
-                          class="btn btn-outline-primary"
-                          data-bs-toggle="modal"
-                          data-bs-target="#teacheradd"
-                        >
-                          +
-                        </button>
-                      </div>
 
+                      <button
+                        type="button"
+                        class="btn btn-outline-primary float-end"
+                        data-bs-toggle="modal"
+                        data-bs-target="#teacheradd"
+                      >
+                        <i class="bi bi-plus-square"></i>
+                      </button>
+                      {/* addTEacher */}
                       <div
                         class="modal fade"
                         id="teacheradd"
@@ -224,18 +223,17 @@ export function Admin() {
                       </h5>
 
                       <h6 class="card-text">50</h6>
-                      <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                        <button
-                          // to={"/studentView"}
-                          type="button"
-                          class="btn btn-outline-primary text-end"
-                          data-bs-toggle="modal"
-                          data-bs-target="#studentadd"
-                        >
-                          <b className="text-end">+</b>
-                        </button>
-                      </div>
 
+                      <button
+                        // to={"/studentView"}
+                        type="button"
+                        class="btn btn-outline-primary float-end"
+                        data-bs-toggle="modal"
+                        data-bs-target="#studentadd"
+                      >
+                        <i class="bi bi-plus-square"></i>
+                      </button>
+                      {/* modal for add student */}
                       <div
                         class="modal fade"
                         id="studentadd"
@@ -382,18 +380,17 @@ export function Admin() {
                       </h5>
 
                       <h6 class="card-text">50</h6>
-                      <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                        <button
-                          // to={"/studentView"}
-                          type="button"
-                          class="btn btn-outline-primary"
-                          data-bs-toggle="modal"
-                          data-bs-target="#exampleModal"
-                        >
-                          +
-                        </button>
-                      </div>
 
+                      <button
+                        type="button"
+                        class="btn btn-outline-primary float-end"
+                        data-bs-toggle="modal"
+                        data-bs-target="#exampleModal"
+                      >
+                        <i class="bi bi-plus-square"></i>
+                      </button>
+
+                      {/* modal for add section */}
                       <div
                         class="modal fade"
                         id="exampleModal"
@@ -488,18 +485,15 @@ export function Admin() {
                       </h5>
 
                       <h6 class="card-text">50</h6>
-                      <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                        <button
-                          // to={"/studentView"}
-                          type="button"
-                          class="btn btn-outline-primary"
-                          data-bs-toggle="modal"
-                          data-bs-target="#courseadd"
-                        >
-                          +
-                        </button>
-                      </div>
-
+                      <button
+                        type="button"
+                        class="btn btn-outline-primary float-end"
+                        data-bs-toggle="modal"
+                        data-bs-target="#courseadd"
+                      >
+                        <i class="bi bi-plus-square"></i>
+                      </button>
+                      {/* modal for add course's */}
                       <div
                         class="modal fade"
                         id="courseadd"

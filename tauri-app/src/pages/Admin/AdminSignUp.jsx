@@ -60,23 +60,21 @@ function AdminSignUp() {
                     />
                   </div>
 
-                  <div class="col-12 text-center">
-                    <button type="submit" class="btn btn-outline-primary m-2">
+                  <div class="d-grid gap-2 text-center">
+                    <Link
+                      to={"/admin"}
+                      type="submit"
+                      class="btn btn-outline-primary mx-5"
+                    >
                       Sign in
+                    </Link>
+                    <button type="button" class="btn btn-outline-danger mx-5">
+                      <b>Cancel</b>
                     </button>
-                    <button type="button" class="btn btn-outline-danger">
-                      Cancel
-                    </button>
-                    <br />
+
                     <b>
-                      Have an Accont ? <Link to={"/login"}>Login</Link>{" "}
+                      Have an Accont ? <Link to={"/"}>Login</Link>{" "}
                     </b>
-                  </div>
-                  <hr />
-                  <div class="col-12 text-end">
-                    <button type="button" class="btn btn-outline-danger">
-                      Cancel
-                    </button>
                   </div>
                 </form>
               </div>

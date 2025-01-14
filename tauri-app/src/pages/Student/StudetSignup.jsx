@@ -102,16 +102,21 @@ function StudetSignup() {
                     </select>
                   </div>
 
-                  <div class="col-12 text-center">
-                    <button type="submit" class="btn btn-outline-primary m-2">
-                      Sign in
-                    </button>
-                    <button type="button" class="btn btn-outline-danger">
-                      Cancel
-                    </button>
+                  <div class="d-grid gap-2 text-center">
                     <br />
+                    <Link
+                      to={"/student"}
+                      type="submit"
+                      class="btn btn-outline-primary mx-5"
+                    >
+                      <b>Sign in</b>
+                    </Link>
+                    <button type="button" class="btn btn-outline-danger mx-5">
+                      <b>Cancel</b>
+                    </button>
+
                     <b>
-                      Have an Accont ? <Link to={"/login"}>Login</Link>{" "}
+                      Have an Accont ? <Link to={"/"}>Login</Link>{" "}
                     </b>
                   </div>
                 </form>

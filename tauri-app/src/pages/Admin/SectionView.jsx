@@ -48,7 +48,7 @@ function SectionView() {
                           >
                             Update
                           </button>
-
+                          {/* modal for updating Section */}
                           <div
                             class="modal fade"
                             id="updateSection"
@@ -130,6 +130,7 @@ function SectionView() {
                               </div>
                             </div>
                           </div>
+                          {/* end of modal */}
                           <button
                             class="btn btn-outline-danger btn-sm"
                             type="button"

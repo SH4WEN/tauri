@@ -49,6 +49,7 @@ function CourseView() {
                             Update
                           </button>
 
+                          {/* modal fro updating Course's */}
                           <div
                             class="modal fade"
                             id="courseupdate"
@@ -130,6 +131,7 @@ function CourseView() {
                               </div>
                             </div>
                           </div>
+                          {/* end of modal */}
 
                           <button
                             class="btn btn-outline-danger btn-sm"

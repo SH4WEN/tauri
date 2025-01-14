@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 export function NavBar() {
   return (
     <>
-      <nav class="navbar bg-body-tertiary  fixed-top">
+      <nav class="navbar bg-body-tertiary fixed-top">
         <div class=" mx-2">
           <button
             class="navbar-toggler"
